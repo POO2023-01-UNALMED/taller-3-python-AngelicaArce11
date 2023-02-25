@@ -45,12 +45,12 @@ class TV:
                 self._canal=canal
     
     @classmethod
-    def getNumTv(cls):
-        return cls.numTV
+    def getNumTV(cls):
+        return cls._numTV
     
     @classmethod
     def setNumTV(cls, numTV):
-        cls.numTV=numTV
+        cls._numTV=numTV
     
     def turnOn(self):
         self._estado=True
